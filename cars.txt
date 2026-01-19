@@ -1,0 +1,17 @@
+AUTO
+
+targa - CARCHAR(255) - 
+marca - CARCHAR(255) - 
+modello - CARCHAR(255) - 
+tipo_vettura - CARCHAR(255) - 
+km_percorsi - UNSIGNED MEDIUMINT
+anno_immatricolazione - YEAR - 
+numero_proprietari - UNSIGNED TINYINT
+alimentazione - CARCHAR(255) - 
+cambio - CARCHAR(255) - 
+cilindrata_cv - UNSIGNED MEDIUMINT
+cilindrata_cc - UNSIGNED MEDIUMINT
+allestimento - CARCHAR(255) - 
+accessori - CARCHAR(255) - 
+prezzo_eur - DECIMAL(10,2)
+deposito_stoccaggio - CARCHAR(255) - 
