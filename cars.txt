@@ -1,6 +1,7 @@
 AUTO
 
-targa - CARCHAR(255) - PRIMARY KEY (UNIQUE, NOT NULL)
+ID - UNSIGNED BIGINT - PRIMARY KEY (UNIQUE, NOT NULL) - AUTO INCREMENT
+targa - CARCHAR(255) - NUL
 marca - CARCHAR(255) - NULL
 modello - CARCHAR(255) - NULL
 tipo_vettura - CARCHAR(255) - NULL
@@ -15,3 +16,10 @@ allestimento - CARCHAR(255) - NULL
 accessori - CARCHAR(255) - NULL
 prezzo_eur - DECIMAL(10,2) - NULL
 deposito_stoccaggio - CARCHAR(255) - NULL
+
+immagine - CARCHAR(255) - NULL
+telaio - CARCHAR(255) - NULL
+consumi - CARCHAR(255) - NULL
+posti - UNSIGNED TINYINT - NULL
+porte - UNSIGNED TINYINT - NULL
+danni - CARCHAR(255) - NULL
